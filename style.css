@@ -1,0 +1,25 @@
+.axis{
+  stroke:black;
+  stroke-size:5px;
+}
+
+.tickmarks{
+  stroke:black;
+  stroke-size:5px;
+}
+
+.axis-labels{
+  font-size:10px;
+}
+
+h2{
+  font-family:Cambria;
+  padding-left:20px;
+}
+
+p{
+  font-family:Cambria;
+  padding-left:20px;
+  padding-bottom:20px;
+  padding-right:750px;
+}

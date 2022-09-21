@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - [1] Deviation - Spine Chart (Population Pyramid)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--Source data: https://www.populationpyramid.net/india/2021/-->
+<h2>Population Pyramid of India as of 2021</h2>
+<p>This is a population pyramid of India as of 2021. The x-axis is the percent (%) of total population and the y-axis is the age group. The male side is represented by blue and the female side pink.</p>
+<svg width="1000" height="1000">
+ <g class="axis">
+  <line x1="50" y1="400" x2="750" y2="400"/>
+  <line x1="50" y1="0" x2="50" y2="400"/>
+  </g>
+  <g class="tickmarks">
+    <line x1="40" y1="0.5" x2="50" y2="0.5"/>
+    <line x1="40" y1="400" x2="50" y2="400"/>
+    <line x1="750" y1="400" x2="750" y2="410"/>
+    <line x1="680" y1="400" x2="680" y2="410"/>
+    <line x1="610" y1="400" x2="610" y2="410"/>
+    <line x1="540" y1="400" x2="540" y2="410"/>
+    <line x1="470" y1="400" x2="470" y2="410"/>
+    <line x1="400" y1="400" x2="400" y2="410"/>
+    <line x1="330" y1="400" x2="330" y2="410"/>
+    <line x1="260" y1="400" x2="260" y2="410"/>
+    <line x1="190" y1="400" x2="190" y2="410"/>
+    <line x1="120" y1="400" x2="120" y2="410"/>
+    <line x1="50" y1="400" x2="50" y2="410"/>
+  </g>
+  <g class="axis-labels">
+    <text x="395" y="423">0%</text>
+    <text x="325" y="423">2%</text>
+    <text x="255" y="423">4%</text>
+    <text x="185" y="423">6%</text>
+    <text x="115" y="423">8%</text>
+    <text x="45" y="423">10%</text>
+    <text x="465" y="423">2%</text>
+    <text x="535" y="423">4%</text>
+    <text x="605" y="423">6%</text>
+    <text x="675" y="423">8%</text>
+    <text x="745" y="423">10%</text>
+    
+    <text x="20" y="10">90-94</text>
+    <text x="20" y="31">85-89</text>
+    <text x="20" y="52">80-84</text>
+    <text x="20" y="73">75-79</text>
+    <text x="20" y="94">70-74</text>
+    <text x="20" y="115">65-69</text>
+    <text x="20" y="136">60-64</text>
+    <text x="20" y="157">55-59</text>
+    <text x="20" y="178">50-54</text>
+    <text x="20" y="199">45-49</text>
+    <text x="20" y="220">40-44</text>
+    <text x="20" y="241">35-39</text>
+    <text x="20" y="262">30-34</text>
+    <text x="20" y="283">25-29</text>
+    <text x="20" y="304">20-24</text>
+    <text x="20" y="325">15-19</text>
+    <text x="20" y="346">10-14</text>
+    <text x="27" y="367">5-9</text>
+    <text x="27" y="388">0-4</text>
+    
+  </g>
+  <g class="bars">
+    <rect x="400" y="380" width="140" height="19" fill="pink"/>
+    <rect x="250" y="380" width="150" height="19" fill="#add8e6"/>
+    <rect x="400" y="359" width="138" height="20" fill="pink"/>
+    <rect x="252" y="359" width="148" height="20" fill="#add8e6"/>
+    <rect x="400" y="338" width="146" height="20" fill="pink"/>
+    <rect x="243" y="338" width="157" height="20" fill="#add8e6"/>
+     <rect x="400" y="317" width="146" height="20" fill="pink"/>
+    <rect x="240" y="317" width="160" height="20" fill="#add8e6"/>
+    <rect x="400" y="296" width="144" height="20" fill="pink"/>
+    <rect x="243" y="296" width="157" height="20" fill="#add8e6"/>
+    <rect x="400" y="275" width="140" height="20" fill="pink"/>
+    <rect x="248" y="275" width="152" height="20" fill="#add8e6"/>
+    <rect x="400" y="254" width="138" height="20" fill="pink"/>
+    <rect x="252" y="254" width="148" height="20" fill="#add8e6"/>
+    <rect x="400" y="233" width="126" height="20" fill="pink"/>
+    <rect x="263" y="233" width="137" height="20" fill="#add8e6"/>
+    <rect x="400" y="212" width="112" height="20" fill="pink"/>
+    <rect x="279" y="212" width="121" height="20" fill="#add8e6"/>
+    <rect x="400" y="191" width="98" height="20" fill="pink"/>
+    <rect x="295" y="191" width="105" height="20" fill="#add8e6"/>
+    <rect x="400" y="170" width="88" height="20" fill="pink"/>
+    <rect x="307" y="170" width="93" height="20" fill="#add8e6"/>
+    <rect x="400" y="149" width="75" height="20" fill="pink"/>
+    <rect x="320" y="149" width="80" height="20" fill="#add8e6"/>
+    <rect x="400" y="128" width="63" height="20" fill="pink"/>
+    <rect x="335" y="128" width="65" height="20" fill="#add8e6"/>
+    <rect x="400" y="107" width="50" height="20" fill="pink"/>
+    <rect x="350" y="107" width="50" height="20" fill="#add8e6"/>
+    <rect x="400" y="86" width="33" height="20" fill="pink"/>
+    <rect x="369" y="86" width="31" height="20" fill="#add8e6"/>
+    <rect x="400" y="65" width="19" height="20" fill="pink"/>
+    <rect x="385" y="65" width="15" height="20" fill="#add8e6"/>
+    <rect x="400" y="44" width="11" height="20" fill="pink"/>
+    <rect x="393" y="44" width="7" height="20" fill="#add8e6"/>
+    <rect x="400" y="23" width="8" height="20" fill="pink"/>
+    <rect x="395" y="23" width="5" height="20" fill="#add8e6"/>
+    <rect x="400" y="2" width="4" height="20" fill="pink"/>
+    <rect x="398" y="2" width="2" height="20" fill="#add8e6"/>
+  </g>
+<!-- partial -->
+  
+</body>
+</html>
